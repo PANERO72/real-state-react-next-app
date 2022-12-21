@@ -5,7 +5,7 @@ import {MdCancel} from 'react-icons/md';
 import { useRouter } from "next/router";
 
 import { filterData, getFilterValues } from "../utils/filterData";
-import { baseUrl, fetchApi } from "../../projects_realestate-main/utils/fetchApi";
+import { baseUrl, fetchApi } from "../utils/fetchAPI";
 import noresult from '../assets/images/noresult.svg';
 
 const SearchFilters = () => {
