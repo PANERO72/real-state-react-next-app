@@ -8,7 +8,7 @@ import SearchFilters from "../components/SearchFilters";
 import Property from '../components/Property';
 import noresults from '../assets/images/noresult.svg';
 
-const search = ({properties}) => {
+const Search = ({properties}) => {
     const [searchFilters, setSearchFilters] = useState(false);
     const router = useRouter();
     var propiedad = "";
@@ -62,4 +62,4 @@ export async function getServerSideProps({query}) {
 	}
 }
 
-export default search;
+export default Search;
