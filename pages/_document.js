@@ -6,7 +6,6 @@ export default function Document() {
       <Head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="/css/nprogress.min.css" type='text/css' />
-        <link rel='stylesheet' href='/css/main.css' type='text/css' />
       </Head>
       <body>
         <Main></Main>
